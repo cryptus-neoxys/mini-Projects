@@ -1,0 +1,80 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    margin : 0;
+    padding: 0;
+    background-color: black;
+    text-align: center;
+}
+
+.container .square {
+    width: 30%;
+    padding-bottom: 30%;
+    background: purple;
+    margin: 1.66%;
+    float: left;
+    border-radius: 25%;
+    transition: all 0.6s;
+}
+
+body .container {
+    max-width: 50vw;
+    margin: 2vh auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: normal;
+    background-color: deepskyblue;
+    color: white;
+    margin: 0;
+}
+
+#winColor {
+    font-size: 200%;
+}
+
+button {
+    text-transform: uppercase;
+    border: none;
+    color: deepskyblue;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: inherit;
+    outline: none;
+}
+
+button:hover {
+    color: white;
+    background-color: deepskyblue;
+    transition: all 0.3s;
+}
+
+#reset {
+    float: left;
+}
+
+.btns {
+    float: right;
+    margin: 0 0.5vw;
+}
+
+.selected {
+    color: white;
+    background-color: deepskyblue;
+}
+
+#stripe {
+    background-color: white;
+    height: 5vh;
+    color: black;
+    padding: 0 25vw;
+}
+
+button {
+    height: 100%;
+}
