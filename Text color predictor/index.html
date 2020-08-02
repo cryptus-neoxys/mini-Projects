@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Color Predictor</title>
+</head>
+<script src="http://unpkg.com/brain.js" type="text/javascript" defer></script>
+<script src="script.js" type="text/javascript" defer></script>
+
+<style type="text/css" media="screen">
+
+	#color {
+		height: 200px;
+		width: 200px;
+		border: 2px solid black;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.white {
+		color: white;
+	}
+	
+</style>
+
+<body>
+	<div id="color">
+		<div class="white">White Text</div>
+		<div>Black Text</div>
+		<div id="guess">Guess Text</div>
+	</div>
+
+	<button id="white-button">White</button>
+	<button id="black-button">Black</button>
+	<button id="print-button">Print</button>
+</body>
+</html>
