@@ -2,9 +2,9 @@
 Repo to maintain **mini projects** :
 * [x] Web Dev
   * [x] _Basic_ (**HTML, CSS, JS**)
-    1. Bootstrap Image Gallery
-    2. Color Game
-    3. ParticleJS
-    4. Text-Color Predictor using Neural Networks (Brain.js)
+    1. Bootstrap Image Gallery (<code> Bootstrap </code>)
+    2. Color Game (<code> Javascript </code>)
+    3. ParticleJS (<code> JS Library (Particles.js) </code>)
+    4. Text-Color Predictor using Neural Networks (<code> JS Library (Brain.js) </code>)
   * [ ] _Advanced_ (**React, NodeJS**)
 * [ ] ML
