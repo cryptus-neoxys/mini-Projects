@@ -12,4 +12,6 @@ const data = [
 
 net.train(data);
 
+
+
 console.log(net.run({r: 1, g: .5, b: 1}))
