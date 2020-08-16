@@ -33,16 +33,19 @@ for(let i = 0; i < listItems.length; ++i) {
 		});
 		list.addEventListener('dragenter', function(e) {
 			e.preventDefault();
+			this.style.boxShadow = '5px 5px 4px 4px rgba(0,0,0,0.75)';
 			this.style.backgroundColor = 'rgba(0, 0, 0, 0.2)'
 			this.style.border = '1px dashed black'
 		});
 		list.addEventListener('dragleave', function(e) {
+			this.style.boxShadow = 'none';
 			this.style.border = '0px dashed black'
 			this.style.backgroundColor = 'rgba(0, 0, 0, 0.1)'			
 		})
 		list.addEventListener('drop', function(e) {
 			console.log('drop');
 			list.append(draggedItem);
+			this.style.boxShadow = 'none';
 			this.style.border = '0px dashed black'
 			this.style.backgroundColor = 'rgba(0, 0, 0, 0.1)'
 		})
