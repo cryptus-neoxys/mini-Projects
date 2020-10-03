@@ -8,6 +8,7 @@ Repo to maintain **mini projects** :
     4. 🚧Text-Color Predictor using Neural Networks (<code> JS Library (Brain.js) </code>)
     5. ✔Drag & Drop (<code> Javascript </code>)
     6. ✔CSS PreLoaders (<code> CSS Animation  </code>)
+    7. ✔Corona Data Fetcher (<code> Axios (XHR, Promises, async / await) </code>)
   * [X] _Advanced_ (**React, Nodejs**)
     1. 🚧React Delimmiter Table (<code> Reactjs </code>)
 * [ ] ML
