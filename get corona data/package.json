@@ -1,0 +1,15 @@
+{
+  "name": "get_corona_data",
+  "version": "1.0.0",
+  "description": "Get Corona Data for your District For the past 100 days",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.20.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dev Sharma",
+  "license": "ISC"
+}

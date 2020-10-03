@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Get Corona DATA</title>
+	</head>
+	<style>
+		body {
+			margin: 0px;
+			padding: 0px;
+			display: flex;
+			height: 100vh;
+			width: 100vw;
+			justify-content: center;
+			align-items: center;
+			background: black;
+		}
+		.btn {
+			padding: 1rem;
+			font-size: 2rem;
+			font-weight: 700;
+			font-style: sans-serif;
+			outline: none;
+			color: white;
+			background: #7865d4;
+		}
+	</style>
+	<body>
+		<label for="userDate">Enter Date</label>
+		<input
+			type="date"
+			name="userDate"
+			id="uD"
+			value=""
+			onchange="setUserDate(this.value)"
+		/>
+		<button class="btn" onclick="getData()">Get Data</button>
+	</body>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script src="index.js"></script>
+</html>
