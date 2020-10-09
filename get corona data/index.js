@@ -1,9 +1,9 @@
 // const axios = require("axios").default;
 // const fs = require("fs");
 
-let userDate = "";
+let userDate = '';
 
-inputDate = document.getElementById("uD");
+inputDate = document.getElementById('uD');
 
 const setUserDate = (ele) => {
 	userDate = ele;
@@ -25,12 +25,12 @@ function getDates(startDate, stopDate) {
 	while (currentDate <= stopDate) {
 		dateArray.push(
 			currentDate
-				.toLocaleString("en-IN", {
-					day: "2-digit",
-					month: "2-digit",
-					year: "numeric",
+				.toLocaleString('en-IN', {
+					day: '2-digit',
+					month: '2-digit',
+					year: 'numeric',
 				})
-				.split(",")[0]
+				.split(',')[0]
 		);
 		currentDate = currentDate.addDays(1);
 	}
@@ -39,14 +39,14 @@ function getDates(startDate, stopDate) {
 
 var myCurrentDate = new Date();
 var myPastDate = new Date(myCurrentDate);
-myPastDate.setDate(myPastDate.getDate() - 109);
+myPastDate.setDate(myPastDate.getDate() - 125);
 
-var dateArray = getDates(myPastDate, new Date().addDays(100));
+var dateArray = getDates(myPastDate, new Date().addDays(116));
 // for (i = 0; i < dateArray.length; i++) {
 // 	// console.log(dateArray[i]);
 // }
-dateArray.length = 100;
-dateArray = dateArray.map((d) => d.split("/"));
+dateArray.length = 116;
+dateArray = dateArray.map((d) => d.split('/'));
 
 // const BUTTON = document.querySelector(".btn");
 
@@ -65,7 +65,7 @@ const reqData = (date) => {
 			// 	res["CT"]["districts"]["Raipur"]["delta"]
 			// );
 			RaipurData[`${date[2]}/${date[1]}/${date[0]}`] =
-				res["data"]["CT"]["districts"]["Raipur"]["delta"];
+				res['data']['CT']['districts']['Raipur']['delta'];
 		})
 		.catch((error) => {
 			// handle error
