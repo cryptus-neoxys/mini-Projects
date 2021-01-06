@@ -4,7 +4,7 @@
   "description": "Get Corona Data for your District For the past 100 days",
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.20.0"
+    "axios": "^0.21.1"
   },
   "devDependencies": {},
   "scripts": {
